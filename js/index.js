@@ -1,3 +1,4 @@
+console.log("I'm ready1");
 // Iteration 1: Names and Input
 
 let hacker1 = "Ben"
@@ -28,15 +29,23 @@ if (hacker1.length > hacker2.length){
 
 let driverName = '';
 
-for (let letter of hacker1) {
+for (let characters of hacker1) {
   
-  driverName += `${letter.toUpperCase()} `
+  driverName += `${characters.toUpperCase()} `
 }
 
 console.log(driverName)
 
+let reversed = '';
 
-console.log("I'm ready1");
+for (let character of hacker2){
+  
+  reversed = character + reversed;
+}
+
+console.log(reversed)
+
+
 
 
 
